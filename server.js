@@ -4,7 +4,7 @@ const { spawn } = require('child_process');
 const cors = require('cors');
 const app = express();
 const admin = require('firebase-admin');
-const serviceAccount = require('./recipe-recommender-9d84c-firebase-adminsdk-d39zy-4d2df3e84e.json');
+const serviceAccount = require('');
 
 // Initialize Firebase Admin SDK
 // Resource: https://firebase.google.com/docs/admin/setup
