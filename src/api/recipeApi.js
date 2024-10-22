@@ -11,7 +11,7 @@ export const fetchRecipeFromAI = async (ingredients) => {
   try {
     // Make a GET request to the backend API
     // Resource on axios.get: https://axios-http.com/docs/get_request
-    const response = await axios.get('http://localhost:5001/generate-recipe', {
+    const response = await axios.get('', {
       // Pass the ingredients as a query parameter
       // Resource on query parameters: https://en.wikipedia.org/wiki/Query_string
       params: { ingredients }
